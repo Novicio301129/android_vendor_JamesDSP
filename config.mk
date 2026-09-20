@@ -22,4 +22,4 @@ PRODUCT_SOONG_NAMESPACES += \
 
 PRODUCT_PACKAGES += \
     libjamesdsp \
-    JamesDSPManager
+    JamesDSPManagerThePBone
