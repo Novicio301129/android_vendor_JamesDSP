@@ -20,6 +20,9 @@ JAMESDSP_PATH := vendor/JamesDSP
 PRODUCT_SOONG_NAMESPACES += \
    $(JAMESDSP_PATH)
 
+# SEPolicy
+BOARD_VENDOR_SEPOLICY_DIRS += $(JAMESDSP_PATH)/sepolicy/vendor
+
 PRODUCT_PACKAGES += \
     libjamesdsp \
     JamesDSPManagerThePBone
